@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: hsla(0, 100%, 90%, 0.3);
+}
+
+h1 {
+  padding: 4px 0;
+
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 350px;
+  padding: 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+.middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.text-muted {
+  margin-top: 20px
+}
+
+.btn {
+  background-color:  #ff4c68;
+  color: white;
+  border: 0;
+  transition: .5s
+
+}
+.btn:hover {
+  background-color: #ef8172;
+  color: white;
+}
+.btn:active {
+  box-shadow: 0 0 2px 2px #ef8172;
+}
+.layout {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+}
